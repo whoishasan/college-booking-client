@@ -1,6 +1,7 @@
 import React from "react";
 import CollegeCard from "../components/CollegeCard";
 import ImageGallery from "../components/ImageGallery";
+import ResearchPapers from "../components/ResearchPapers.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,9 @@ const Home = () => {
       </div>
       <div>
         <ImageGallery></ImageGallery>
+      </div>
+      <div>
+        <ResearchPapers></ResearchPapers>
       </div>
     </div>
   );
