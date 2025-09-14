@@ -1,5 +1,6 @@
 import React from "react";
 import CollegeCard from "../components/CollegeCard";
+import ImageGallery from "../components/ImageGallery";
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
       />
       <div>
         <CollegeCard></CollegeCard>
+      </div>
+      <div>
+        <ImageGallery></ImageGallery>
       </div>
     </div>
   );
